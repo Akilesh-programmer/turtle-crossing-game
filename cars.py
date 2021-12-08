@@ -8,7 +8,7 @@ class Cars(Turtle):
     def __init__(self):
         super().__init__()
         self.shape("square")
-        self.shapesize(stretch_len=2)
+        self.shapesize(stretch_len=2, stretch_wid=1)
         self.move_distance = 5
         self.penup()
         self.goto(0, 0)
@@ -19,4 +19,5 @@ class Cars(Turtle):
     # Creating a method to move the cars.
     def move(self):
         self.backward(self.move_distance)
+        
         

@@ -107,9 +107,7 @@ def game():
     for car in cars_generated:
         if car.distance(turtle) < 20:
             game_is_on = False
-            if car.xcor == 0:
-                if car.distance(turtle) < 1:
-                    game_is_on = True
+            
 
     
 
